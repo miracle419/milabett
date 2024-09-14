@@ -1,0 +1,506 @@
+.bodyer{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    background-color:rgb(0, 24, 0);
+}
+.head{
+    display: flex;
+    max-height:fit-content;
+    background-color: rgb(1, 54, 1);
+    column-gap: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 2px outset rgb(0, 24, 0) ;
+    overflow-wrap: break-word;
+}
+.header{
+    margin-left: 7px;
+}
+.mila{
+    color:rgba(224, 98, 14, 0.986) ;
+}
+.login{
+    background-color: rgb(4, 70, 7);
+    height:fit-content;
+    font-size: larger;
+    color: whitesmoke;
+   display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.registration{
+    background-color: rgba(224, 98, 14, 0.986);
+    height:fit-content;
+    font-size:large;
+    display: flex;
+    margin-top: 20px;
+}
+.registration:hover{
+    background-color: rgba(221, 112, 39, 0.986) ;
+}
+.registration a{
+    text-decoration: none;
+ color: white;
+}
+.sportsdiv{
+    display: flex;
+    margin-left: 10px;
+}
+.sportsdiv:hover{
+    font-size: 17px;
+}
+.fa-chevron-down{
+    margin-top: 20px;
+    column-gap: -3px;
+}
+
+.live{
+    display: flex;
+}
+.wingames{
+    display: flex;
+    column-gap: 1.5px;
+}
+.casino{
+    display: flex;
+}
+.livecasino{
+    display:flex;
+    column-gap: 1.5px;
+}
+.more{
+    display:flex;
+}
+.fa-slack{ margin-top: 22px;
+    }
+.MIRACLE{
+    display: flex;
+    column-gap: 3px;
+    background-color:rgb(0, 24, 0) ;
+}
+.lasticons{
+    display: flex;
+    margin-left: 100px;
+    background-color: rgb(4, 70, 7);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.lasticons:hover{
+    background-color: rgb(10, 96, 14);
+}
+.fa-dollar-sign {
+    margin-top: 10px;
+}
+.lasticons p{
+    visibility: hidden;
+}
+.lasticons2{
+    display: flex;
+    margin-left: 10px;
+    background-color:rgb(4, 70, 7) ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.lasticons2:hover{
+    background-color: rgb(10, 96, 14);
+}
+.fa-gift{
+    margin-top: 10px;
+}
+.lasticons2 p{
+    visibility: hidden;
+}
+
+.wheelthem{
+    display: flex;
+    background-color:rgb(4, 70, 7);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.wheelthem:hover{
+    background-color: rgb(10, 96, 14);
+}
+.book{
+    margin-top: 7px;
+}
+.fa-gear{
+    margin-top: 10px;
+}
+.wheelthem p{
+    visibility: hidden;
+}
+h6{
+    display: none;
+}
+.sportsdropdown{
+   position: fixed;
+   background-color: white;
+   color: black;
+   margin-top: 50px;
+   padding: 15px;
+   border-left: 2px solid rgba(224, 98, 14, 0.986);
+   font-size: large;
+}
+.sportsdiv:hover .sportsdropdown{
+    display: block;
+}
+
+.live .livedropdown{
+   position: absolute;
+   background-color: white;
+   color: black;
+   margin-top: 50px;
+   padding: 15px;
+   border-left: 2px solid rgba(224, 98, 14, 0.986);
+   font-size: large;
+}
+.live:hover .livedropdown{
+   display: block;
+}
+.aside{
+    margin-left: 12px;
+    position: fixed;
+    overflow: auto;
+}
+.hand{
+    height: 43px;
+    width: 43px;
+    background-color: rgb(1, 43, 1);
+    align-content: center;
+    justify-content: center;
+    color:aliceblue;
+    padding-left: 12px;
+    border-radius: 5px;
+    margin-top:10px ;
+}
+.trophy{
+    height: 43px;
+    width: 43px;
+    background-color: rgb(1, 43, 1);
+    align-content: center;
+    justify-content: center;
+    color:aliceblue;
+    padding-left: 12px;
+    margin-top: 2px;
+border-radius: 5px;
+}
+.medal{
+    height: 43px;
+    width: 43px;
+    background-color: rgb(1, 43, 1);
+    align-content: center;
+    justify-content: center;
+    color:aliceblue;
+    padding-left: 12px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.dot{
+    height: 43px;
+    width: 43px;
+    background-color: rgb(1, 43, 1);
+    align-content: center;
+    justify-content: center;
+    color:aliceblue;
+    padding-left: 12px;
+    margin-top: 15px;
+}
+.fa-circle-dot{
+    margin-left: 7px;
+    color: green;
+    font-size: small;
+}
+.no{
+    height: 43px;
+    width: 43px;
+    background-color:white;
+    align-content: center;
+    justify-content: center;
+    color:black;
+    padding-left: 12px; 
+    border-bottom: 1px solid rgb(233, 220, 220);
+}
+.slidem{
+    margin-left: 80px;
+    margin-top: 10px;
+    position: absolute;
+}
+.last-aside{
+    overflow: auto;
+}
+.Collapse{
+    height: 30px;
+    width: 300px;
+    background-color:rgb(1, 43, 1) ;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    margin-bottom: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: large;
+    color: white;
+}
+.form h2{
+    text-align: center;
+}
+.form{
+    right: 0%;
+    position: absolute;
+    background-color: white;
+    margin-top: 60px;
+    width: 300px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.by-phone{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: large;
+    background-color: rgb(4, 70, 7);
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.by-mail{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: large;
+    align-items: center;
+    background-color: rgb(4, 70, 7);
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.buttonss{
+    display: flex;
+    column-gap: 5px;
+}
+.by-phone:hover{
+    background-color: rgb(10, 96, 14);
+}
+.by-mail:hover{
+    background-color: rgb(10, 96, 14);
+}
+.deposit1{
+    height: 30px;
+    width: 300px;
+    background-color:rgb(1, 43, 1) ;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 200px;
+    font-size: large;
+    color: white;
+}
+.depo
+
+                                          /*    registration */
+.bod{
+    background-color:rgb(0, 24, 0);
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.h11{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    margin-left: 350px;
+}
+.onetwo{
+    margin-left: 100px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px groove rgb(0, 24, 0) ;
+}
+.one{
+    background-color: rgb(4, 70, 7);
+    height:100px;
+    width: 300px ;
+    display: flex;
+    padding: 5px;
+    color: rgb(190, 179, 179);
+    align-items: center;
+}
+.one h4{
+    margin-bottom: -10px;
+    margin-top: 5px;
+    font-size: large;
+}
+.bothh{
+    padding-left: 10px;
+    font-size: large;
+    text-align: center;
+}
+.two{
+    height:100px;
+    width: 300px ;
+    display: flex;
+    padding: 5px;
+    color: black;
+    align-items: center;
+    background-color: rgb(190, 179, 179);
+}
+.two h4{
+    margin-bottom: -10px;
+    margin-top: 5px;
+    font-size: large;
+}
+.vn{
+    border-bottom: 1px solid rgb(131, 129, 129);
+}
+.fform{
+    position: absolute;
+    top: 0px;
+    margin-top: 140px;
+    margin-left: 430px;
+    background-color:rgb(190, 179, 179);
+    width: 800px;
+    font-family: Arial, sans-serif;
+    height: 480px;
+    border: 2px groove rgb(0, 24, 0);
+}
+.fform h2{
+    text-align:center;
+}
+
+.buttons{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.phone{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: large;
+    background-color:rgb(10, 96, 14) ;
+}
+.phone2{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: large;
+}
+.phone2:active{
+    background-color: rgb(10, 96, 14);
+}
+.fa-mobile-screen-button{
+    display: inline-block;
+    padding: 3px;
+}
+.fa-envelope{
+        display: inline-block;
+        padding: 3px;
+}
+.demall{
+    margin-top: 40px;
+    padding: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.sms{
+    background-color: rgb(4, 70, 7);
+    width: 72px;
+    margin-top: -35px;
+    margin-left: 305px;
+    height: 35px;
+    align-content: center;
+    justify-content: center;
+    padding-left: 30px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+}
+.smss{
+    background-color: rgb(4, 70, 7);
+    width: 85px;
+    margin-top: -35px;
+    margin-left: 305px;
+    height: 35px;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 15px;
+    position: absolute;
+}
+.sms:hover{
+    background-color:rgb(10, 96, 14) ;
+}
+.smss:hover{
+    background-color:rgb(10, 96, 14) ;
+}
+.bbbb{
+    display: flex;
+}
+.currency{
+    margin-left: 125px;
+    width: 300px;
+}
+.bbbb input{
+    height: 30px;
+}
+.bbbb select{
+    height: 35px;
+    width: 140px; ;
+}
+.vwv{
+    display: flex;
+}
+.vwv input{
+    height: 30px;
+    margin-top: 30px;
+}
+.vwv .bmv{
+    width: 305px;
+}
+.promo{
+    margin-left: 125px;
+    width: 270px;
+}
+.registerr{
+    margin-top: 30px;
+    height: 30px;
+}
+.registerr button{
+    background-color: rgba(224, 98, 14, 0.986);
+    border: 0;
+    width:735px ;
+    height: 30px;
+}
+.registerr button:hover{
+   background-color: rgba(239, 110, 23, 0.986);
+}
+.lastword{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.lastword input{
+    margin-top: -14px;
+    width: 30px;
+}
+.lastword a{
+    color:rgb(4, 70, 7) ;
+}
+.lastword a:hover{
+    color: rgb(10, 96, 14);
+}
